@@ -9,11 +9,9 @@ function App() {
       {console.log('inside the return')}
       {showEmployees ?
         <div>
-          <Employee/>
-          <Employee/>
-          <Employee/>
-          <Employee/>
-          <Employee/>
+          <Employee name='Caleb' role='Intern'/>
+          <Employee name='Abby' />
+          <Employee name='John' />
         </div> 
         
       :
